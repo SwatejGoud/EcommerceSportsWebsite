@@ -37,11 +37,4 @@ The design is optimized for viewing on mobile devices with a screen width of 576
 * Clone the repository.
 * Navigate to the project directory.
 * You can run the project on ' localhost:5173 ' by typing ' npm run dev ' in the terminal.
-* You can access the site here 
-
-
-<img src="sportCenterImages/s7.png" width=1200 height="600">
-
-
-<img src="sportCenterImages/m8.png" width=1200 height="600">
-
+* You can access the site here https://github.com/SwatejGoud/EcommerceSportsWebsite.git
