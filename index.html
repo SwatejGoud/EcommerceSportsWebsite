@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Sport Center</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar-container">
+        <div class="logo">
+          <img src="img/dear_logo.png" alt="band" />
+        </div>
+        <input type="checkbox" class="menu-btn" id="menu-btn" />
+        <label for="menu-btn" class="menu-icon">
+          <i class="fa-solid fa-bars menu-hmbgr"></i>
+        </label>
+        <div class="bar">
+          <a href="#home">Home</a>
+          <a href="#classes">Classes</a>
+          <a href="#trainer">Trainer</a>
+          <a href="#review">Review</a>
+          <a href="#contact">Contact</a>
+          <button>
+            <a href="#joinus"><p>JOIN US</p></a>
+          </button>
+        </div>
+      </nav>
+    </header>
+    <section id="home" class="home">
+      <div class="home-container">
+        <div class="container">
+          <h6 class="power"><p><i>Dear</i></p></h6>
+          <h1>Ready To Transform<Br/>Your Body?</h1>
+          <br />
+          <p>
+            Get the content, coaching and community you need to become a Macro Scientist
+            so you can finally snap that "after" picture that will have your friends
+            wondering, "what's their secret?".
+          </p>
+        </div>
+        <div class="home-buttons">
+          <button class="sign">Sign Up</button>
+          <button class="details">Details</button>
+        </div>
+      </div>
+    </section>
+    <div class="flex-container">
+      <div>
+        <p>325<br /><span>Course</span></p>
+      </div>
+      <div>
+        <p>405<br /><span>Work Out</span></p>
+      </div>
+      <div>
+        <p>305<br /><span>Working Hour</span></p>
+      </div>
+      <div>
+        <p>705<br /><span>Happy Client</span></p>
+      </div>
+    </div>
+    <section class="classes" id="classes">
+      <div class="class-container">
+        <div class="bg-shape"></div>
+        <h2>OUR CLASSES</h2>
+        <div class="line"></div>
+        <p>
+          Engage with the class you are interested in among our four classes.
+        </p>
+        <div class="button-container">
+          <button id="yoga">Yoga</button>
+          <button id="group">Group</button>
+          <button id="solo">Solo</button>
+          <button id="stretch">Stretching</button>
+        </div>
+        <div id="features-container">
+          <div>
+            <h6>Why Choose Yoga?</h6>
+            <p>
+              Yoga offers a wide range of benefits for physical and mental well-being, 
+              including improved flexibility, strength, and balance, as well as stress reduction
+              and improved mood. It also promotes body awareness,
+              increases concentration, and enhances the mind-body connection. 
+            </p>
+            <h6>When comes Yoga Time?</h6>
+            <p>Saturday-Sunday: 8:00am - 10:00am</p>
+            <p>Monday-Tuesday: 8:00am - 10:00am</p>
+            <p>Wednesday-Friday: 8:00am - 10:00am</p>
+          </div>
+          <img src="img/yoga.jpg" />
+        </div>
+      </div>
+    </section>
+    <div class="bmi-container">
+      <div class="calculate-container">
+        <h1>BMI Calculator</h1>
+        <p>
+          A higher BMI increases the chance of developing long-term conditions,
+          such as type 2 diabetes and heart disease.The BMI calculation is just
+          one measure of health.<br /><br />
+          It cannot tell the difference between muscle and fat. For example, if
+          you have a lot of muscle, you may be classed as overweight or obese
+          despite having low body fat.This is why you may get a better idea of
+          your overall health from measuring your waist.
+        </p>
+        <input id="height" type="text" placeholder="Your Height" /><span style="margin-right: 0.43rem;"
+          >cm</span
+        >
+        <input id="weight" type="text" placeholder="Your Weight" /><span
+          >kg</span
+        >
+      </div>
+      <div class="img-container">
+        <h4>Your BMI</h4>
+        <img src="img/bmi-index.jpg" />
+        <div class="triangle"></div>
+        <p id="bmi-value" style="margin-top: 1rem; font-weight: bold;">Your BMI: --</p>
+      </div>
+    </div>
+    <section class="trainer" id="trainer">
+      <div class="trainer-container">
+        <h2>OUR BEST TRAINERS</h2>
+        <div class="line"></div>
+        <p>
+          The best way to find out if you can trust somebody is to trust them.
+        </p>
+        <div class="trainers-container">
+          <div class="trainer-portfolio">
+            <div class = "stick"></div>
+            <img src="img/trainer1.jpg" />
+            <div class = "stick-bottom"></div>
+            <div class="trainer-layer">
+              <h4>Marry Jane</h4>
+              <p>Pilates Trainer</p>
+            </div>
+          </div>
+          <div class="trainer-portfolio">
+            <div class = "stick"></div>
+            <img src="img/trainer2.jpg" />
+            <div class = "stick-bottom"></div>
+            <div class="trainer-layer">
+              <h4>Henry Cavill</h4>
+              <p>Functional Trainer</p>
+            </div>
+          </div>
+          <div class="trainer-portfolio">
+            <div class = "stick"></div>
+            <img src="img/trainer3.jpg" />
+            <div class = "stick-bottom"></div>
+            <div class="trainer-layer">
+              <h4>Jane Doe</h4>
+              <p>Cardio Trainer</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="purchase">
+      <div class="purchase-container">
+        <h2>PURCHASE FROM US</h2>
+        <div class="line"></div>
+        <p>
+          Ready to buy from us? Check out the Products!
+        </p>
+        <div class="equipment-container">
+          <div class="equipment-card">
+            <img src="img/purchase1.jpg" />
+            <div class="card-layer">
+              <h4>Kettlebell / 5kg</h4>
+              <p><span>89.99$</span>/ 59.99$</p>
+              <p><i class="fa-solid fa-cart-shopping"></i>Add To Cart</p>
+            </div>
+          </div>
+          <div class="equipment-card">
+            <img src="img/purchase2.jpg" />
+            <div class="card-layer">
+              <h4>Treadmill / 5kg</h4>
+              <p><span>899.99$</span>/ 599.99$</p>
+              <p><i class="fa-solid fa-cart-shopping"></i>Add To Cart</p>
+            </div>
+          </div>
+          <div class="equipment-card">
+            <img src="img/purchase4.jpg" />
+            <div class="card-layer">
+              <h4>Adjustable Dumbbell</h4>
+              <p><span>89.99$</span>/ 59.99$</p>
+              <p><i class="fa-solid fa-cart-shopping"></i>Add To Cart</p>
+            </div>
+          </div>
+          <div class="equipment-card">
+            <img src="img/purchase3.jpg" />
+            <div class="card-layer">
+              <h4>KettleBell / 3kg</h4>
+              <p><span>72.99$</span>/ 42.99$</p>
+              <p><i class="fa-solid fa-cart-shopping"></i>Add To Cart</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="review" id="review">
+      <div class="review-container">
+        <h2>CLIENT REVIEW</h2>
+        <div class="line"></div>
+        <p>
+          Customer reviews provide valuable insights into our overall service and help build trust with potential buyers.
+          <br/>Here are few highlights!
+        </p>
+        <div class="client-container">
+          <div class="review">
+            <div class="client">
+              <img src="img/client1.jpg" />
+              <p><span>Jim Cook</span><br />CFO at NovaTech Firm</p>
+            </div>
+            <div class="comment">
+              <p>
+                Running a company means making countless decisions every day — and I used to be drained by noon.
+                Joining this gym gave me back my stamina, focus, and confidence.
+                Honestly, it is one of the best investments I have made for both myself and my business.
+              </p>
+            </div>
+          </div>
+          <div class="review">
+            <div class="client">
+              <img src="img/client2.jpg" />
+              <p><span>Amodio Leslie</span><br />CEO at AMD Inc</p>
+            </div>
+            <div class="comment">
+              <p>
+                I never thought I would find the time or motivation to focus on my fitness. But this gym changed that completely.
+                The personalized programs, supportive trainers, and energizing environment not only improved my
+                health — they helped me bring a new level of clarity and drive into my business.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <div class="contact-container">
+        <h2>CONTACT US</h2>
+        <div class="line"></div>
+        <p>
+          We’d Love to Hear From You!<br/>
+          Whether you're looking to start your fitness journey, have questions about our classes,
+          or just want to say hello<br/> — we're here for you.
+          Reach out to us anytime and our team will get back to you as soon as possible!
+        </p>
+        <div class="message-container">
+          <div class="phone-container">
+            <h6>
+              Mobile Number &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Email
+              Address
+            </h6>
+            <span>+135 773 321 4442&nbsp; &nbsp; &nbsp;demo@demo.com</span>
+            <div class="input-container">
+              <h3>Make An Appointment</h3>
+              <input type="text" placeholder="Your Name" id="textname"/>
+              <input type="email" placeholder="Your Email" id="ymail"/>
+              <textarea
+                rows="5"
+                cols="50"
+                name="text"
+                placeholder="Your Message"
+              ></textarea>
+            </div>
+          </div>
+          <div class="googleMap">
+            <iframe
+            width="600"
+            height="450"
+            frameborder="0"
+            style="border: 0"
+            src="https://www.google.com/maps/embed/v1/place?q=bandırma&key=AIzaSyCqzeNGT3WMFdRL0MrLTK4oCaMCDJwu6g8"
+            allowfullscreen
+          >
+          </iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer">
+        <div class="logo">
+          <img src="img/dear_logo.png" alt="band" />
+        </div>
+        <p>
+          Built for Strength. Backed by Passion. Powered by Community.
+          At Dear, we’re more than just a fitness center — we’re a lifestyle movement. Our brand stands for dedication,
+          transformation, and real results. From state-of-the-art equipment and world-class
+          trainers to empowering group classes and personalized solo sessions,
+          we help our members unlock their full potential — physically and mentally.
+          We believe fitness isn’t just about how you look — it’s about how you feel, lead, and live.
+        </p>
+        <div class="footer-container">
+          <div class="info">
+            <h3>Information</h3>
+            <a href="#">About Us</a>
+            <a href="#">Classes</a>
+            <a href="#">Blog</a>
+            <a href="#">Contact</a>
+          </div>
+          <div class="links">
+            <h3>Helpful Links</h3>
+            <a href="#">Services</a>
+            <a href="#">Supports</a>
+            <a href="#">Terms & Condition</a>
+            <a href="#">Privacy Policy</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
