@@ -40,26 +40,6 @@ The design is optimized for viewing on mobile devices with a screen width of 576
 * You can access the site here 
 
 
-## 📸 Screenshots
-
-<img src="sportCenterImages/s1.png" width=1200 height="600">
-
-
-<img src="sportCenterImages/s2.png" width=1200 height="600">
-
-
-<img src="sportCenterImages/s3.png" width=1200 height="600">
-
-
-<img src="sportCenterImages/s4.png" width=1200 height="600">
-
-
-<img src="sportCenterImages/s5.png" width=1200 height="600">
-
-
-<img src="sportCenterImages/s6.png" width=1200 height="600">
-
-
 <img src="sportCenterImages/s7.png" width=1200 height="600">
 
 
