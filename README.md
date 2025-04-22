@@ -37,7 +37,7 @@ The design is optimized for viewing on mobile devices with a screen width of 576
 * Clone the repository.
 * Navigate to the project directory.
 * You can run the project on ' localhost:5173 ' by typing ' npm run dev ' in the terminal.
-* You can access the site here https://rabiacagli.github.io/Sport-Center/
+* You can access the site here 
 
 
 ## 📸 Screenshots
